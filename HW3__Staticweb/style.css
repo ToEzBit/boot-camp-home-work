@@ -1,0 +1,109 @@
+/* TOC 
+1.side-bar-layout
+2.side-bar-style
+4.content-layout
+5.content-style
+6.video-layout
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    box-sizing: border-box;
+}
+html{
+    font-size: calc(60%+0.8vmin);
+}
+
+/* side-bar-layout*/
+.side-bar{
+    width: 15rem;
+    height: 100vh;
+    position: absolute;
+    text-align: center;
+
+}
+
+.side-bar__head img{
+    width: 5rem;
+    margin: 1rem;
+}
+
+.side-bar__footer{
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 50%;
+}
+
+/* side-bar-style */
+
+.side-bar{
+    background-color: rgba(255, 255, 255, 0.267);
+}
+
+.side-bar__head {
+    background-color: white;
+}
+
+
+.side-bar__footer h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.side-bar__footer p{
+    font-size: 1.2rem;
+}
+
+
+/* content-layout*/
+.content{
+    position: absolute;
+    top: 40%;
+    right: 20%;
+}
+
+/* content-style */
+.content h1{
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+}
+
+.content p {
+    color: white;
+}
+
+.content button{
+    margin-top: 1rem;
+    background:    white;
+    border-radius: 11px;
+    padding:10px 20px;
+}
+
+
+/* video-layout */
+video{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    z-index: -1;
+
+}
