@@ -1,0 +1,212 @@
+/* TOC 
+1.Main*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;500&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #FFFFFF;
+    --fontColor: black;
+    --whietext: whitesmoke;
+    --borderColor: black;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+/* 1.Main */
+.container{
+    font-family: 'Fredoka', sans-serif;
+}
+
+header{
+    background-color: var(--background);
+    padding: 24px 240px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+}
+
+.headContent h1{
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.headContent p{
+    margin: 8px 0 0 24px;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+nav a{
+    color: var(--fontColor);
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+main{
+    text-align: center;
+    padding: 64px 0 640px 0;
+    background-image: url(./img/mainBackground.jpg);
+}
+
+main h2{
+    font-size: 24px;
+    font-weight: 600
+}
+
+main h1{
+    font-size: 144px;
+    letter-spacing: 16px;
+}
+
+main p{
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+main a{
+    background-color: black;
+    padding: 12px 24px;
+    color: var(--whietext);
+    text-decoration: none;
+}
+
+main div{
+    margin-top: 40px;
+}
+
+.aboutMe{
+    display: flex;
+}
+
+.aboutMe img{
+    width: 100%;
+    height: 716px;
+
+}
+
+.aboutMeContainer{
+    padding-left: 160px;
+    padding-top: 56px;
+    width: 100%;
+}
+
+.aboutMeContainer h1{
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+
+.aboutMeContainer p{
+    padding-right: 120px;
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.aboutMeContainer div {
+    margin-top: 80px;
+}
+
+.aboutMeContainer a{
+    background-color: black;
+    padding: 12px 24px;
+    color: var(--whietext);
+    text-decoration: none;
+}
+
+.help {
+    border: solid 1px transparent;
+    background-image: url(./img/helpBackground.png);
+    background-size: cover;
+}
+
+
+.itemContainer{
+    border: solid 8px var(--borderColor);
+    margin: 40px 32px 0px 32px;
+    padding: 24px 8px 120px 8px;
+    text-align: center;
+}
+
+.helpContainer{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 160px;
+}
+
+.help h2{
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    margin: 8px 0px 0px 200px;
+}
+
+.itemContainer h1{
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+
+.helpTextContainer{
+    margin-top: 40px;
+}
+
+.itemContainer p{
+    margin-top: 16px;
+    margin: 16px 0px 16px 0px;
+    font-weight: 300;
+}
+
+.itemContainer hr{
+    border-top: solid 3px var(--fontColor);
+    width: 70%;
+}
+
+.itemContainer a,.serviceContainer a{
+    background-color: black;
+    padding: 10px 32px;
+    color: var(--whietext);
+    text-decoration: none;
+}
+
+.bookContainer {
+    margin-top: 80px;
+}
+
+.serviceContainer{
+    text-align: center;
+    margin: 48px 0px 72px 0px;
+}
+
+.mainTextContainer{
+    margin-top: 80px;
+}
