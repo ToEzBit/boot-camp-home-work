@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>HW4_Resume</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="header__nav" id="nav">
+          <a href="#" class="hide">Works</a>
+          <a href="#" class="hide">Blog</a>
+          <a href="#" class="hide">Contact</a>
+          <a href="#" class="header__toggle" onClick="showMenu()">&equiv;</a>
+        </nav>
+        <div class="header__content">
+          <div class="header__content__text-box">
+            <h1>Hi, I am Annie</h1>
+            <h1>Creative Technologist</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+              inventore ratione eligendi impedit delectus dolore dolor porro
+              illo. Quae maiores et officia enim nobis sed repellat, architecto
+              deserunt ratione corrupti accusamus unde assumenda voluptatum
+              sunt! Id tempora ea nostrum voluptate.
+            </p>
+            <button>Download Resume</button>
+          </div>
+          <div class="header__content__img">
+            <img src="./img/person.jpg" alt="#" />
+          </div>
+        </div>
+      </header>
+      <div class="recent-post">
+        <div class="recent-post__header">
+          <h1>Recent posts</h1>
+          <a href="#">View all</a>
+        </div>
+        <div class="recent-post__content">
+          <div class="recent-post__content__item">
+            <h1>Making a design system form scratch</h1>
+            <div class="recent-post__content__item__date">
+              <p>12 Feb 2020</p>
+              <p>Design,Pattern</p>
+            </div>
+            <p class="recent-post__item__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui
+              delectus odit officia adipisci impedit cum temporibus! Illum
+              reiciendis incidunt cupiditate illo facilis officiis deserunt
+              quidem, quae mollitia numquam nam voluptate.
+            </p>
+          </div>
+          <div class="recent-post__content__item">
+            <h1>Making a design system form scratch</h1>
+            <div class="recent-post__content__item__date">
+              <p>12 Feb 2020</p>
+              <p>Design,Pattern</p>
+            </div>
+            <p class="recent-post__item__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui
+              delectus odit officia adipisci impedit cum temporibus! Illum
+              reiciendis incidunt cupiditate illo facilis officiis deserunt
+              quidem, quae mollitia numquam nam voluptate.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="feature-work">
+        <div class="feature-work__header">
+          <h1 class="feature-work__header__h1">Feature works</h1>
+        </div>
+        <div class="feature-work__content">
+          <div class="feature-work__content__container">
+            <div class="feature-work__content__container__item">
+              <img src="./img/item1.jpg" alt="item" />
+              <div class="feature-work__content__container__item__text">
+                <h1 class="feature-work__content__container__item__text__h1">
+                  Designing Dashboards
+                </h1>
+                <div class="feature-work__content__container__item__text__date">
+                  <p>2020</p>
+                  <p>Dashboard</p>
+                </div>
+                <p class="feature-work__content__container__item__text__p">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos
+                  nulla porro consequuntur perspiciatis ducimus nihil, quasi
+                  iste quas earum exercitationem!
+                </p>
+              </div>
+            </div>
+            <div class="feature-work__content__container__item">
+              <img src="./img/item2.jpg" alt="item" />
+              <div class="feature-work__content__container__item__text">
+                <h1 class="feature-work__content__container__item__text__h1">
+                  Designing Dashboards
+                </h1>
+                <div class="feature-work__content__container__item__text__date">
+                  <p>2020</p>
+                  <p>Dashboard</p>
+                </div>
+                <p class="feature-work__content__container__item__text__p">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos
+                  nulla porro consequuntur perspiciatis ducimus nihil, quasi
+                  iste quas earum exercitationem!
+                </p>
+              </div>
+            </div>
+            <div class="feature-work__content__container__item">
+              <img src="./img/item3.jpg" alt="item" />
+              <div class="feature-work__content__container__item__text">
+                <h1 class="feature-work__content__container__item__text__h1">
+                  Designing Dashboards
+                </h1>
+                <div class="feature-work__content__container__item__text__date">
+                  <p>2020</p>
+                  <p>Dashboard</p>
+                </div>
+                <p class="feature-work__content__container__item__text__p">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos
+                  nulla porro consequuntur perspiciatis ducimus nihil, quasi
+                  iste quas earum exercitationem!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function showMenu() {
+        let nav = document.getElementById("nav");
+        nav.classList.toggle("showMenu");
+      }
+    </script>
+  </body>
+</html>

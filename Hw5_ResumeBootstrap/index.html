@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./nav__style.css" />
+    <link rel="stylesheet" href="./desktop.css" />
+    <title>HW5_ResumeBootstrap</title>
+  </head>
+  <body>
+    <div class="">
+      <header>
+        <nav class="mt-5 d-flex justify-content-end" id="nav">
+          <a href="#" class="hide mt-3 text-reset fw-bold me-5">Works</a>
+          <a href="#" class="hide mt-3 text-reset fw-bold me-5">Blog</a>
+          <a href="#" class="hide mt-3 text-reset fw-bold me-5">Contact</a>
+          <a
+            href="#"
+            class="header__toggle text-reset d-lg-none"
+            onClick="showMenu()"
+            >&equiv;</a
+          >
+        </nav>
+        <div class="">
+          <div
+            class="d-flex flex-column align-items-center flex-lg-row-reverse"
+          >
+            <div class="mt-5 me-5 ms-5">
+              <img src="./img/person.jpg " alt="#" class="rounded-circle" />
+            </div>
+            <div class="ms-5 text-center text-lg-start">
+              <h1 class="mt-5 fw-bold">Hi, I am Annie</h1>
+              <h1 class="fw-bold">Creative Technologist</h1>
+              <p class="mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                inventore ratione eligendi impedit delectus dolore dolor porro
+                illo. Quae maiores et officia enim nobis sed repellat,
+                architecto deserunt ratione corrupti accusamus unde assumenda
+                voluptatum sunt! Id tempora ea nostrum voluptate.
+              </p>
+
+              <button class="bg-danger border-0 text-light">
+                Download Resume
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="bg-info bg-opacity-10 mt-5 p-3 pb-5">
+        <div class="">
+          <h1 class="text-center fw-normal">Recent posts</h1>
+        </div>
+        <div class="d-lg-flex">
+          <div class="bg-white p-3 mt-3 me-3">
+            <h1 class="fw-bold">Making a design system form scratch</h1>
+            <div class="d-flex">
+              <p class="me-3">12 Feb 2020</p>
+              <p class="border-start border-dark ps-3">Design,Pattern</p>
+            </div>
+            <p class="">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui
+              delectus odit officia adipisci impedit cum temporibus! Illum
+              reiciendis incidunt cupiditate illo facilis officiis deserunt
+              quidem, quae mollitia numquam nam voluptate.
+            </p>
+          </div>
+          <div class="bg-white p-3 mt-3">
+            <h1 class="fw-bold">Making a design system form scratch</h1>
+            <div class="d-flex">
+              <p class="me-3">12 Feb 2020</p>
+              <p class="border-start border-dark ps-3">Design,Pattern</p>
+            </div>
+            <p class="">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui
+              delectus odit officia adipisci impedit cum temporibus! Illum
+              reiciendis incidunt cupiditate illo facilis officiis deserunt
+              quidem, quae mollitia numquam nam voluptate.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <div class="">
+          <h1 class="text-center fw-normal mt-3">Feature works</h1>
+        </div>
+        <div class="mt-3">
+          <div class="">
+            <div class="d-flex flex-column align-items-center flex-lg-row">
+              <img
+                src="./img/item1.jpg"
+                alt="item"
+                class="img-fluid w-50 rounded ps-5 pe-5 mt-4"
+              />
+              <div class="mt-3 text-center w-50 p-4">
+                <h1 class="fw-bold">Designing Dashboards</h1>
+                <div class="d-flex justify-content-center">
+                  <p class="me-3 bg-primary ps-3 pe-3 rounded-pill">2020</p>
+                  <p>Dashboard</p>
+                </div>
+                <p class="ps-5 pe-5">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos
+                  nulla porro consequuntur perspiciatis ducimus nihil, quasi
+                  iste quas earum exercitationem!
+                </p>
+                <hr class="w-75 position-relative ms-5 me-5" />
+              </div>
+            </div>
+            <div class="d-flex flex-column align-items-center flex-lg-row">
+              <img
+                src="./img/item2.jpg"
+                alt="item"
+                class="img-fluid w-50 rounded ps-5 pe-5 mt-4"
+              />
+              <div class="mt-3 text-center w-50 p-4">
+                <h1 class="fw-bold">Designing Dashboards</h1>
+                <div class="d-flex justify-content-center">
+                  <p class="me-3 bg-primary ps-3 pe-3 rounded-pill">2020</p>
+                  <p>Dashboard</p>
+                </div>
+                <p class="ps-5 pe-5">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos
+                  nulla porro consequuntur perspiciatis ducimus nihil, quasi
+                  iste quas earum exercitationem!
+                </p>
+                <hr class="w-75 position-relative ms-5 me-5" />
+              </div>
+            </div>
+            <div class="d-flex flex-column align-items-center flex-lg-row">
+              <img
+                src="./img/item3.jpg"
+                alt="item"
+                class="img-fluid w-50 rounded ps-5 pe-5 mt-4"
+              />
+              <div class="mt-3 text-center w-50 p-4">
+                <h1 class="fw-bold">Designing Dashboards</h1>
+                <div class="d-flex justify-content-center">
+                  <p class="me-3 bg-primary ps-3 pe-3 rounded-pill">2020</p>
+                  <p>Dashboard</p>
+                </div>
+                <p class="ps-5 pe-5">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos
+                  nulla porro consequuntur perspiciatis ducimus nihil, quasi
+                  iste quas earum exercitationem!
+                </p>
+                <hr class="w-75 position-relative ms-5 me-5" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./nav_script.js"></script>
+  </body>
+</html>
